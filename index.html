@@ -61,6 +61,16 @@
       width: 100%;
     }
 
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center top;
+      border: 2px solid #222;
+      margin-bottom: 1.5rem;
+    }
+
     .name {
       font-family: 'Inter', sans-serif;
       font-size: 1rem;
@@ -68,7 +78,7 @@
       letter-spacing: 0.2em;
       text-transform: uppercase;
       color: #666;
-      margin-bottom: 3rem;
+      margin-bottom: 2.5rem;
     }
 
     .banner {
@@ -193,6 +203,7 @@
 </head>
 <body>
   <div class="container">
+    <img src="headshot.jpg" alt="Harpreet Singh" class="avatar">
     <p class="name">Harpreet Singh</p>
 
     <h1 class="banner">
@@ -203,7 +214,7 @@
     <div class="divider"></div>
 
     <div class="ctas">
-      <a href="https://ai.harpreet.io" class="cta">
+      <a href="https://newsletter.harpreet.io" class="cta">
         <span class="cta-label">AI &amp; Tech</span>
         <span class="cta-title">ai.harpreet.io</span>
         <svg class="cta-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
